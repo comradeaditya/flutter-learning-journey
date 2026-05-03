@@ -18,6 +18,12 @@ things out step by step.
 - Working with forms and text fields
 - Asset management and loading images
 - Building multi-screen apps
+- Card Widget and Material Design UI
+- Building Profile Cards
+- Building Product Cards
+- Creating Social Media Post UI
+- Stack & Positioned for overlay layouts
+- Spacer and advanced UI alignment
 
 ---
 
@@ -51,6 +57,17 @@ messy commits and all.
 
 ### Social Post Card
 ![Social Post Card](screenshots/post_card.jpeg)
+
+---
+
+## Current Focus
+
+Right now I'm focusing on:
+- Flutter UI composition
+- Responsive layouts
+- Navigation
+- Reusable widgets
+- Building production-style interfaces
 
 ---
 
