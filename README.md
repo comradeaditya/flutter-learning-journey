@@ -44,4 +44,14 @@ messy commits and all.
 
 ---
 
+## Screenshots
+
+### Product Card
+![Product Card](screenshots/product_card.jpeg)
+
+### Social Post Card
+![Social Post Card](screenshots/post_card.jpeg)
+
+---
+
 Updated as I learn.
