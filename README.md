@@ -24,6 +24,9 @@ things out step by step.
 - Creating Social Media Post UI
 - Stack & Positioned for overlay layouts
 - Spacer and advanced UI alignment
+- Snackbar and temorary user feedback
+- AlertDialog and popup interactions
+- Confirmation flow handling
 
 ---
 
@@ -57,6 +60,11 @@ messy commits and all.
 
 ### Social Post Card
 ![Social Post Card](screenshots/post_card.jpeg)
+
+### AlertDialog + Snackbar Flow
+Shows a real-world user interaction flow using AlertDialog confirmation and Snackbar feedback after deletion action.
+
+![AlertDialog + Snackbar](screenshots/alert_dialog_snackbar_flow.jpeg)
 
 ---
 

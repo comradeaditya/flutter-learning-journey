@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_learning_journey/screens/alrert_dialog_screen.dart';
 import 'package:flutter_learning_journey/screens/post_card_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/second_screen.dart';
 import 'screens/image_screen.dart';
 import 'screens/card_screen.dart';
 import 'screens/product_card_screen.dart';
+import 'screens/snackbar_screen.dart';
 
 void main(){
   runApp(const MyApp());
@@ -23,7 +25,7 @@ class MyApp extends StatelessWidget{
     initialRoute: '/',
 
     routes: {
-      '/': (context) => const PostCardScreen(),
+      '/': (context) => const AlertDialogScreen(),
 
       '/second': (context) => const SecondScreen(),
 
