@@ -56,11 +56,9 @@ messy commits and all.
 
 ## Screenshots
 
-### Product Card
-![Product Card](screenshots/product_card.jpeg)
-
-### Social Post Card
-![Social Post Card](screenshots/post_card.jpeg)
+### Product Card + Social Post Card
+E-commerce style Product Card with Stack and Positioned favorite icon overlay, and an Instagram-style Social Post Card with CircleAvatar profile header, action row using Spacer for bookmark alignment, and 120 likes counter.
+![Product Card + Social Post Card](screenshots/product_card_plus_post_card.jpeg)
 
 ### AlertDialog + Snackbar Flow
 Shows a real-world user interaction flow using AlertDialog confirmation and Snackbar feedback after deletion action.
@@ -68,9 +66,13 @@ Shows a real-world user interaction flow using AlertDialog confirmation and Snac
 ![AlertDialog + Snackbar](screenshots/alert_dialog_snackbar_flow.jpeg)
 
 ### AppBar Actions
+Demonstrates real-world AppBar interaction patterns including search, notifications, profile, and a three-dot PopupMenuButton with dynamic Snackbar feedback on every action.
+
 ![AppBar Actions](screenshots/appbar_actions.jpeg)
 
 ### Drawer Widget
+A fully functional navigation Drawer with a gradient profile header using UserAccountsDrawerHeader, ListTile menu items with icons, a Divider separator, and floating Snackbar feedback on every tap.
+
 ![Drawer Widget](screenshots/drawer_widget.jpeg)
 
 ---
