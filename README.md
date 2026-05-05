@@ -27,6 +27,7 @@ things out step by step.
 - Snackbar and temorary user feedback
 - AlertDialog and popup interactions
 - Confirmation flow handling
+- Drawer widget with reusable navigation handling
 
 ---
 
@@ -66,16 +67,21 @@ Shows a real-world user interaction flow using AlertDialog confirmation and Snac
 
 ![AlertDialog + Snackbar](screenshots/alert_dialog_snackbar_flow.jpeg)
 
+### AppBar Actions
+![AppBar Actions](screenshots/appbar_actions.jpeg)
+
+### Drawer Widget
+![Drawer Widget](screenshots/drawer_widget.jpeg)
+
 ---
 
 ## Current Focus
 
-Right now I'm focusing on:
-- Flutter UI composition
-- Responsive layouts
-- Navigation
-- Reusable widgets
-- Building production-style interfaces
+Currently learning:
+- Drawer
+- AppBar actions
+- Bottom Navigation Bar
+- Responsive Flutter UI
 
 ---
 
