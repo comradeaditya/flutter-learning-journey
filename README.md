@@ -90,7 +90,7 @@ A multi-screen Bottom Navigation system built using StatefulWidget, setState(), 
 ### TabBar + TabBarView
 Top tab navigation built using DefaultTabController, TabBar, and TabBarView with swipe gestures, active tab indicators, custom tab styling, and seperate screen architecture for scalable UI management.
 
-![TabBar + TabBarView](screenshots/flutter-learning-journey/screenshots/tabbar_navigation.jpeg)
+![TabBar + TabBarView](screenshots/tabbar_navigation.jpeg)
 
 ---
 
