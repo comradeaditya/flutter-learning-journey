@@ -10,6 +10,10 @@ import 'screens/product_card_screen.dart';
 import 'screens/snackbar_screen.dart';
 import 'screens/appbar_actions_screen.dart';
 import 'screens/drawer_screen.dart';
+import 'screens/bottom_nav_screen.dart';
+import 'screens/bottom_nav_home_screen.dart';
+import 'screens/bottom_nav_search_screen.dart';
+import 'screens/bottom_nav_profile_screen.dart';
 
 void main(){
   runApp(const MyApp());
@@ -28,7 +32,7 @@ class MyApp extends StatelessWidget{
     initialRoute: '/',
 
     routes: {
-      '/': (context) => const DrawerScreen(),
+      '/': (context) => const BottomNavScreen(),
 
       '/second': (context) => const SecondScreen(),
 

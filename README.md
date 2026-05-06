@@ -1,7 +1,7 @@
 # Flutter Learning Journey
 
 I'm learning Flutter from scratch and this repository is where I practice,
-experiment, and build things as I go. Not a course project — just me figuring
+experiment, and build things as I go. Not a course project - just me figuring
 things out step by step.
 
 ---
@@ -10,8 +10,8 @@ things out step by step.
 
 - Setting up Flutter and understanding project structure
 - MaterialApp, Scaffold, AppBar
-- Layout widgets — Row, Column, Container, Stack
-- Lists and Grids — ListView, GridView
+- Layout widgets - Row, Column, Container, Stack
+- Lists and Grids - ListView, GridView
 - Stateful vs Stateless widgets
 - Navigation between screens using Named Routes
 - Passing data between screens
@@ -24,10 +24,15 @@ things out step by step.
 - Creating Social Media Post UI
 - Stack & Positioned for overlay layouts
 - Spacer and advanced UI alignment
-- Snackbar and temorary user feedback
+- Snackbar and temporary user feedback
 - AlertDialog and popup interactions
 - Confirmation flow handling
 - Drawer widget with reusable navigation handling
+- BottomNavigationBar and tab-based navigation
+- StatefulWidget driven screen switching
+- Dynamic UI updates using setState()
+- Multi-screen architecture using seperate screen files
+- State-driven navigation patterns
 
 ---
 
@@ -40,9 +45,8 @@ as the project grows. lib/main.dart is the entry point and handles routing.
 
 ## Why I'm doing this
 
-I want to get genuinely good at Flutter — not just follow tutorials but actually
-understand why things work the way they do. This repo is proof of that process,
-messy commits and all.
+I want to get genuinely good at Flutter - not just follow tutorials but actually
+understand why things work the way they do. This repo documents my real learning process as I build and improve with Flutter.
 
 ---
 
@@ -75,15 +79,20 @@ A fully functional navigation Drawer with a gradient profile header using UserAc
 
 ![Drawer Widget](screenshots/drawer_widget.jpeg)
 
+### Bottom Navigation Bar
+A multi-screen Bottom Navigation system built using StatefulWidget, setState(), and dynamic screen rendering with selectedIndex. Includes seperate screen architecture, active tab highlighting, and production-style BottomNavigationBar behavior.
+
+![Bottom Navigation Bar](screenshots/bottom_navigation_bar.jpeg)
+
 ---
 
 ## Current Focus
 
 Currently learning:
-- Drawer
-- AppBar actions
-- Bottom Navigation Bar
+- TabBar & TabBarView
 - Responsive Flutter UI
+- Expanded & Flexible
+- Flutter UI architecture
 
 ---
 
