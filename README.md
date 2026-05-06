@@ -31,8 +31,11 @@ things out step by step.
 - BottomNavigationBar and tab-based navigation
 - StatefulWidget driven screen switching
 - Dynamic UI updates using setState()
-- Multi-screen architecture using seperate screen files
+- Multi-screen architecture using separate screen files
 - State-driven navigation patterns
+- TabBar and TabBarView navigation
+- Swipeable tab interfaces
+- DefaultTabController based navigation
 
 ---
 
@@ -84,12 +87,16 @@ A multi-screen Bottom Navigation system built using StatefulWidget, setState(), 
 
 ![Bottom Navigation Bar](screenshots/bottom_navigation_bar.jpeg)
 
+### TabBar + TabBarView
+Top tab navigation built using DefaultTabController, TabBar, and TabBarView with swipe gestures, active tab indicators, custom tab styling, and seperate screen architecture for scalable UI management.
+
+![TabBar + TabBarView](screenshots/flutter-learning-journey/screenshots/tabbar_navigation.jpeg)
+
 ---
 
 ## Current Focus
 
 Currently learning:
-- TabBar & TabBarView
 - Responsive Flutter UI
 - Expanded & Flexible
 - Flutter UI architecture
