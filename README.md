@@ -36,7 +36,10 @@ things out step by step.
 - TabBar and TabBarView navigation
 - Swipeable tab interfaces
 - DefaultTabController based navigation
-
+- Expanded widget for responsive space distribution
+- Flexible widget for adaptive layouts 
+- Responsive Row & Column layouts 
+- Understanding proportional sizing using flex
 ---
 
 ## How this repo is structured
@@ -92,13 +95,17 @@ Top tab navigation built using DefaultTabController, TabBar, and TabBarView with
 
 ![TabBar + TabBarView](screenshots/tabbar_navigation.jpeg)
 
+Responsive Flutter layouts built using Expanded, Flexible, Row, and Column. Demonstrates proportional space distribution using flex values, adaptive text behavior, and responsive UI structure fundamentals.
+
+![Expanded + Flexible](screenshots/expanded_flexible.jpeg)
+
 ---
 
 ## Current Focus
 
 Currently learning:
+- MediaQuery and responsive sizing
 - Responsive Flutter UI
-- Expanded & Flexible
 - Flutter UI architecture
 
 ---
