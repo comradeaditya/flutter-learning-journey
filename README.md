@@ -95,6 +95,7 @@ Top tab navigation built using DefaultTabController, TabBar, and TabBarView with
 
 ![TabBar + TabBarView](screenshots/tabbar_navigation.jpeg)
 
+### Expanded + Flexible Widget
 Responsive Flutter layouts built using Expanded, Flexible, Row, and Column. Demonstrates proportional space distribution using flex values, adaptive text behavior, and responsive UI structure fundamentals.
 
 ![Expanded + Flexible](screenshots/expanded_flexible.jpeg)
