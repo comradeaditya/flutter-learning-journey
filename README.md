@@ -40,12 +40,20 @@ things out step by step.
 - Flexible widget for adaptive layouts 
 - Responsive Row & Column layouts 
 - Understanding proportional sizing using flex
+- Responsive UI using MediaQuery
+- Screen width & height based adaptive sizing
+- Responsive text scaling
+- Orientation handling (Portrait & Landscape)
+- Scroll-safe layouts using SingleChildScrollView
+- Reusable responsive widgets
+
 ---
 
 ## How this repo is structured
 
-All screens are inside lib/screens. Reusable widgets will go into lib/widgets
-as the project grows. lib/main.dart is the entry point and handles routing.
+Screens are organized inside `lib/screens` and responsive UI practice components are inside 'lib/responsive'.
+
+Reusable widgets and UI sections are seperated into modular files as the project grows. `lib/main.dart` acts as the application entry point and handles routing/navigation.
 
 ---
 
@@ -100,14 +108,24 @@ Responsive Flutter layouts built using Expanded, Flexible, Row, and Column. Demo
 
 ![Expanded + Flexible](screenshots/expanded_flexible.jpeg)
 
+### MediaQuery + Responsive Layouts
+Built responsive Flutter layouts using MediaQuery for adaptive width, height, spacing, and text scaling across multiple device sizes. Includes responsive cards, buttons, reusable widgets, and scroll-safe UI handling using SingleChildScrollView.
+
+![MediaQuery + Responsive Layouts](screenshots/media_query.jpeg)
+
+### Orientation Handling
+Implimented portrait and landscape adaptive layouts using MediaQuery orientation detection. UI dynamically switches between Column and Row layouts for better responsiveness across screen rotations.
+
+![Orientation Handling](screenshots/orientation.jpeg)
+
 ---
 
 ## Current Focus
 
 Currently learning:
-- MediaQuery and responsive sizing
-- Responsive Flutter UI
-- Flutter UI architecture
+- ThemeData and app-wide styling
+- Custom Flutter themes
+- Consistent UI design systems
 
 ---
 

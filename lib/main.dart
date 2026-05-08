@@ -16,6 +16,8 @@ import 'screens/expanded_screen.dart';
 import 'screens/alrert_dialog_screen.dart';
 import 'screens/post_card_screen.dart';
 import 'responsive/media_query_screen.dart';
+import 'responsive/responsive_card.dart';
+import 'responsive/orientation_screen.dart';
 
 void main(){
   runApp(const MyApp());
@@ -34,7 +36,7 @@ class MyApp extends StatelessWidget{
     initialRoute: '/',
 
     routes: {
-      '/': (context) => const MediaQueryScreen(),
+      '/': (context) => const OrientationScreen(),
 
       '/second': (context) => const SecondScreen(),
 
