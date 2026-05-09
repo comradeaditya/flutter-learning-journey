@@ -46,14 +46,20 @@ things out step by step.
 - Orientation handling (Portrait & Landscape)
 - Scroll-safe layouts using SingleChildScrollView
 - Reusable responsive widgets
+- App-wide theming using ThemeData
+- Centralized color system using AppColors
+- Reusable button and card themes
+- Material 3 theming
+- Global typography using TextTheme
+- Modular theme architecture using app_theme.dart
 
 ---
 
 ## How this repo is structured
 
-Screens are organized inside `lib/screens` and responsive UI practice components are inside 'lib/responsive'.
+Screens are organized inside `lib/screens` and responsive UI practice components are inside `lib/responsive`.
 
-Reusable widgets and UI sections are seperated into modular files as the project grows. `lib/main.dart` acts as the application entry point and handles routing/navigation.
+Reusable widgets, theme configuration, and UI sections are separated into modular files as the project grows. `lib/main.dart` acts as the application entry point and handles routing/navigation.
 
 ---
 
@@ -118,14 +124,19 @@ Implimented portrait and landscape adaptive layouts using MediaQuery orientation
 
 ![Orientation Handling](screenshots/orientation.jpeg)
 
+### ThemeData + Custom Themes
+Built a centralized flutter theming system using ThemeData, custom AppColors, reusable button themes, card themes, typography styling, and Material 3 design. Includes modular theme architecture using app_theme.dart and app_colors.dart for scalable UI consistency.
+
+![ThemeData + Custom Themes](screenshots/theme_data_custom_colors.jpeg)
+
 ---
 
 ## Current Focus
 
 Currently learning:
-- ThemeData and app-wide styling
-- Custom Flutter themes
-- Consistent UI design systems
+- Dark mode implementation
+- Theme switching in Flutter
+- Adaptive UI styling
 
 ---
 

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_learning_journey/screens/tab_profile_screen.dart';
+import 'package:flutter_learning_journey/screens/theme_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/second_screen.dart';
 import 'screens/image_screen.dart';
@@ -18,6 +20,7 @@ import 'screens/post_card_screen.dart';
 import 'responsive/media_query_screen.dart';
 import 'responsive/responsive_card.dart';
 import 'responsive/orientation_screen.dart';
+import 'theme/app_theme.dart';
 
 void main(){
   runApp(const MyApp());
@@ -33,10 +36,12 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
+      theme: AppTheme.lightTheme, //replace inline theme with this
+
     initialRoute: '/',
 
     routes: {
-      '/': (context) => const OrientationScreen(),
+      '/': (context) => const ThemeScreen(),
 
       '/second': (context) => const SecondScreen(),
 
