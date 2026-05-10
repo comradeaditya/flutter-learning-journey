@@ -136,7 +136,7 @@ Built a centralized Flutter theming system using ThemeData, custom AppColors, re
 ### Dark Mode Toggle
 Implemented dynamic light and dark theme architecture using ThemeMode, custom darkTheme configureation, adaptive UI styling, and centralized theme management with AppTheme.
 
-[!Dark Mode Toggle](screenshots/dark_mode_toggle.jpeg)
+![Dark Mode Toggle](screenshots/dark_mode_toggle.jpeg)
 ---
 
 ## Current Focus
