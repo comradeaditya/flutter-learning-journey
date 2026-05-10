@@ -1,51 +1,50 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_learning_journey/screens/tab_profile_screen.dart';
-import 'package:flutter_learning_journey/screens/theme_screen.dart';
-import 'screens/home_screen.dart';
-import 'screens/second_screen.dart';
-import 'screens/image_screen.dart';
-import 'screens/card_screen.dart';
-import 'screens/product_card_screen.dart';
-import 'screens/snackbar_screen.dart';
-import 'screens/appbar_actions_screen.dart';
-import 'screens/drawer_screen.dart';
-import 'screens/bottom_nav_screen.dart';
-import 'screens/bottom_nav_home_screen.dart';
-import 'screens/bottom_nav_search_screen.dart';
-import 'screens/bottom_nav_profile_screen.dart';
-import 'screens/tab_bar_screen.dart';
-import 'screens/expanded_screen.dart';
-import 'screens/alrert_dialog_screen.dart';
-import 'screens/post_card_screen.dart';
-import 'responsive/media_query_screen.dart';
-import 'responsive/responsive_card.dart';
-import 'responsive/orientation_screen.dart';
 import 'theme/app_theme.dart';
+import 'screens/new_home_screen.dart';
 
 void main(){
   runApp(const MyApp());
   //myApp (root)
 }
 
-class MyApp extends StatelessWidget{
+class MyApp extends StatefulWidget{
   const MyApp({super.key});
 
   @override
-  Widget build(BuildContext context){
+  State<MyApp> createState() => _MyAppState();
+}
 
+class _MyAppState extends State<MyApp> {
+  ThemeMode _themeMode = ThemeMode.light;
+  /* ThemeMode is a 'data type' (Flutter enum) with two values:
+  ThemeMode.light
+  ThemeMode.dark
+  ThemeMode.system
+
+  _themeMode starts as ThemeMode.light - app launches in light mode
+  */
+  void toggleTheme() {
+    setState(() {
+      _themeMode = _themeMode == ThemeMode.light
+      ? ThemeMode.dark
+      : ThemeMode.light;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      theme: AppTheme.lightTheme, //replace inline theme with this
+      theme: AppTheme.lightTheme, //default light theme
+      darkTheme: AppTheme.darkTheme, //dark theme configuration
 
-    initialRoute: '/',
+      themeMode: _themeMode, //controls which one is active right now
 
-    routes: {
-      '/': (context) => const ThemeScreen(),
-
-      '/second': (context) => const SecondScreen(),
-
-    },
+      home: NewHomeScreen(
+        onToggleTheme: toggleTheme,
+        //give toggleTheme function to NewHomeScreen
+      ),
     );
   }
 }

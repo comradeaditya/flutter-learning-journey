@@ -52,6 +52,9 @@ things out step by step.
 - Material 3 theming
 - Global typography using TextTheme
 - Modular theme architecture using app_theme.dart
+- Light and dark theme architecture
+- ThemeMode based UI styling
+- Adaptive theming using Brightness.dark
 
 ---
 
@@ -75,6 +78,7 @@ understand why things work the way they do. This repo documents my real learning
 - Flutter & Dart
 - VS Code
 - Android emulator for testing
+- Material 3 design System
 
 ---
 
@@ -100,7 +104,7 @@ A fully functional navigation Drawer with a gradient profile header using UserAc
 ![Drawer Widget](screenshots/drawer_widget.jpeg)
 
 ### Bottom Navigation Bar
-A multi-screen Bottom Navigation system built using StatefulWidget, setState(), and dynamic screen rendering with selectedIndex. Includes seperate screen architecture, active tab highlighting, and production-style BottomNavigationBar behavior.
+A multi-screen Bottom Navigation system built using StatefulWidget, setState(), and dynamic screen rendering with selectedIndex. Includes separate screen architecture, active tab highlighting, and production-style BottomNavigationBar behavior.
 
 ![Bottom Navigation Bar](screenshots/bottom_navigation_bar.jpeg)
 
@@ -120,23 +124,27 @@ Built responsive Flutter layouts using MediaQuery for adaptive width, height, sp
 ![MediaQuery + Responsive Layouts](screenshots/media_query.jpeg)
 
 ### Orientation Handling
-Implimented portrait and landscape adaptive layouts using MediaQuery orientation detection. UI dynamically switches between Column and Row layouts for better responsiveness across screen rotations.
+Implemented portrait and landscape adaptive layouts using MediaQuery orientation detection. UI dynamically switches between Column and Row layouts for better responsiveness across screen rotations.
 
 ![Orientation Handling](screenshots/orientation.jpeg)
 
 ### ThemeData + Custom Themes
-Built a centralized flutter theming system using ThemeData, custom AppColors, reusable button themes, card themes, typography styling, and Material 3 design. Includes modular theme architecture using app_theme.dart and app_colors.dart for scalable UI consistency.
+Built a centralized Flutter theming system using ThemeData, custom AppColors, reusable button themes, card themes, typography styling, and Material 3 design. Includes modular theme architecture using app_theme.dart and app_colors.dart for scalable UI consistency.
 
 ![ThemeData + Custom Themes](screenshots/theme_data_custom_colors.jpeg)
 
+### Dark Mode Toggle
+Implemented dynamic light and dark theme architecture using ThemeMode, custom darkTheme configureation, adaptive UI styling, and centralized theme management with AppTheme.
+
+[!Dark Mode Toggle](screenshots/dark_mode_toggle.jpeg)
 ---
 
 ## Current Focus
 
 Currently learning:
-- Dark mode implementation
-- Theme switching in Flutter
-- Adaptive UI styling
+- Custom fonts in Flutter
+- Typography systems using TextTheme
+- Consistent text styling and font hierarchy
 
 ---
 

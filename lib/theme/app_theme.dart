@@ -19,6 +19,8 @@ class AppTheme {
 
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
+        backgroundColor: AppColors.primaryColor,
+        foregroundColor: Colors.white,
         padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       ),
@@ -73,6 +75,49 @@ class AppTheme {
         fontSize: 14, 
         color: AppColors.textSecondary
         ),
+    ),
+  );
+
+  //dark theme
+  static ThemeData darkTheme = ThemeData(
+    useMaterial3: true,
+
+    brightness: Brightness.dark, //tells flutter this is a dark theme,
+    //it automatically adjuts default text colors, icon colors, and other defaults to work on dark backgrounds.
+
+    colorScheme: ColorScheme.fromSeed(
+      seedColor: AppColors.primaryColor,
+      brightness: Brightness.dark,
+    ),
+
+    scaffoldBackgroundColor: const Color(0xFF121212),
+
+    appBarTheme: const AppBarTheme(
+      backgroundColor: Colors.black,
+      foregroundColor: Colors.white,
+      centerTitle: true,
+      elevation: 2,
+    ),
+
+    cardTheme: CardThemeData(
+      color: const Color(0xFF1E1E1E),
+      elevation: 4,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16),
+      ),
+    ),
+
+    textTheme: const TextTheme(
+      headlineLarge: TextStyle(
+        fontSize: 22,
+        fontWeight: FontWeight.bold,
+        color: Colors.white,
+      ),
+
+      bodyMedium: TextStyle(
+        fontSize: 14,
+        color: Colors.white70,
+      ),
     ),
   );
 }
