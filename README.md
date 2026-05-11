@@ -147,7 +147,6 @@ Built a centralized typography system using Flutter `TextTheme` with reusable he
 
 ![Custom Fonts + Text Themes](screenshots/custom_fonts_themes.jpeg)
 
-
 ---
 
 
