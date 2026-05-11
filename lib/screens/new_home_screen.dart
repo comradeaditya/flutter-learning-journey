@@ -17,7 +17,7 @@ class NewHomeScreen extends StatelessWidget{
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Dark Mode Toggle"),
+        title: const Text("Toggle Screen"),
       ),
 
       body: Center(

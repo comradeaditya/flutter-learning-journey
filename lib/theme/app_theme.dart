@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'app_colors.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AppTheme {
   static ThemeData lightTheme = ThemeData(
@@ -61,19 +62,36 @@ class AppTheme {
         ),
     ),
 
-    textTheme: const TextTheme(
-      headlineLarge: TextStyle(
-        fontSize: 22,
+    textTheme: TextTheme(
+      headlineLarge: GoogleFonts.poppins(
+        fontSize: 24,
         fontWeight: FontWeight.bold,
         color: AppColors.textPrimary,
       ),
-      bodyLarge: TextStyle(
-        fontSize: 16, 
-        color: AppColors.textPrimary
+      titleLarge: GoogleFonts.poppins(
+        fontSize: 20, 
+        fontWeight: FontWeight.w600,
+        color: AppColors.textPrimary,
         ),
-      bodyMedium: TextStyle(
-        fontSize: 14, 
-        color: AppColors.textSecondary
+        bodyLarge: GoogleFonts.poppins(
+        fontSize: 16, 
+        color: AppColors.textPrimary,
+        ),
+        
+        bodyMedium: GoogleFonts.poppins(
+          fontSize: 14,
+          color: AppColors.textSecondary,
+        ),
+
+        bodySmall: GoogleFonts.poppins(
+          fontSize: 12,
+          color: AppColors.textSecondary,
+        ),
+
+        labelLarge: GoogleFonts.poppins(
+          fontSize: 14,
+          fontWeight: FontWeight.w600,
+          color: Colors.white,
         ),
     ),
   );
@@ -107,16 +125,38 @@ class AppTheme {
       ),
     ),
 
-    textTheme: const TextTheme(
-      headlineLarge: TextStyle(
-        fontSize: 22,
+    textTheme: TextTheme(
+      headlineLarge: GoogleFonts.poppins(
+        fontSize: 24,
         fontWeight: FontWeight.bold,
         color: Colors.white,
       ),
 
-      bodyMedium: TextStyle(
+      titleLarge: GoogleFonts.poppins(
+        fontSize: 20,
+        fontWeight: FontWeight.w600,
+        color: Colors.white,
+      ),
+
+      bodyLarge: TextStyle(
+        fontSize: 16,
+        color: Colors.white,
+      ),
+      
+      bodyMedium: GoogleFonts.poppins(
         fontSize: 14,
         color: Colors.white70,
+      ),
+
+      bodySmall: GoogleFonts.poppins(
+        fontSize: 12,
+        color: Colors.white60,
+      ),
+
+      labelLarge: GoogleFonts.poppins(
+        fontSize: 14,
+        fontWeight: FontWeight.w600,
+        color: Colors.white,
       ),
     ),
   );

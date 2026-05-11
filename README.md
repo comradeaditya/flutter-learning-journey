@@ -55,6 +55,10 @@ things out step by step.
 - Light and dark theme architecture
 - ThemeMode based UI styling
 - Adaptive theming using Brightness.dark
+- Google Fonts integration using google_fonts
+- Typography hierarchy using TextTheme
+- Centralized font styling with Theme.of(context).textTheme
+- Reusable typography system using headline, body, and label styles
 
 ---
 
@@ -78,7 +82,7 @@ understand why things work the way they do. This repo documents my real learning
 - Flutter & Dart
 - VS Code
 - Android emulator for testing
-- Material 3 design System
+- Material 3 Design System
 
 ---
 
@@ -109,7 +113,7 @@ A multi-screen Bottom Navigation system built using StatefulWidget, setState(), 
 ![Bottom Navigation Bar](screenshots/bottom_navigation_bar.jpeg)
 
 ### TabBar + TabBarView
-Top tab navigation built using DefaultTabController, TabBar, and TabBarView with swipe gestures, active tab indicators, custom tab styling, and seperate screen architecture for scalable UI management.
+Top tab navigation built using DefaultTabController, TabBar, and TabBarView with swipe gestures, active tab indicators, custom tab styling, and separate screen architecture for scalable UI management.
 
 ![TabBar + TabBarView](screenshots/tabbar_navigation.jpeg)
 
@@ -134,17 +138,25 @@ Built a centralized Flutter theming system using ThemeData, custom AppColors, re
 ![ThemeData + Custom Themes](screenshots/theme_data_custom_colors.jpeg)
 
 ### Dark Mode Toggle
-Implemented dynamic light and dark theme architecture using ThemeMode, custom darkTheme configureation, adaptive UI styling, and centralized theme management with AppTheme.
+Implemented dynamic light and dark theme architecture using ThemeMode, custom darkTheme configuration, adaptive UI styling, and centralized theme management with AppTheme.
 
 ![Dark Mode Toggle](screenshots/dark_mode_toggle.jpeg)
+
+### Custom Fonts + Text Themes
+Built a centralized typography system using Flutter `TextTheme` with reusable headline, body, and button styles. Implemented custom font integration, theme-based text styling, and dynamic light/dark mode typography for consistent UI design across the app.
+
+![Custom Fonts + Text Themes](screenshots/custom_fonts_themes.jpeg)
+
+
 ---
+
 
 ## Current Focus
 
 Currently learning:
-- Custom fonts in Flutter
-- Typography systems using TextTheme
-- Consistent text styling and font hierarchy
+- Advanced typography hierarchy
+- Scalable Flutter UI architecture 
+- Reusable design systems
 
 ---
 
