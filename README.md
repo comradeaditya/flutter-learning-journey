@@ -59,6 +59,11 @@ things out step by step.
 - Typography hierarchy using TextTheme
 - Centralized font styling with Theme.of(context).textTheme
 - Reusable typography system using headline, body, and label styles
+- LayoutBuilder for adaptive UI rendering
+- Responsive breakpoints for mobile, tablet, and desktop layouts
+- Dynamic GridView layouts using crossAxisCount
+- Responsive grid systems with GridView.builder
+- Constraint-based UI adaptation using maxWidth
 
 ---
 
@@ -147,15 +152,20 @@ Built a centralized typography system using Flutter `TextTheme` with reusable he
 
 ![Custom Fonts + Text Themes](screenshots/custom_fonts_themes.jpeg)
 
+### LayoutBuilder + Responsive Grid
+Built adaptive Flutter layouts using LayoutBuilder and constraint-based rendering. Implemented responsive breakpoints for mobile, tablet, and large screens with dynamically changing GridView column layouts using crossAxisCount and GridView.builder.
+
+![LayoutBuilder + Responsive Grid](screenshots/layoutbuilder_responsive_grid.jpeg)
+
 ---
 
 
 ## Current Focus
 
 Currently learning:
-- Advanced typography hierarchy
-- Scalable Flutter UI architecture 
-- Reusable design systems
+- Hero animations in Flutter
+- Shared element screen transitions
+- Flutter animation fundamentals
 
 ---
 

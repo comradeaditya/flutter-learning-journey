@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_learning_journey/responsive/adaptive_dashboard_screen.dart';
+import 'package:flutter_learning_journey/responsive/layout_builder_screen.dart';
+import 'package:flutter_learning_journey/responsive/responsive_card.dart';
+import 'package:flutter_learning_journey/responsive/responsive_grid_screen.dart';
 import 'package:flutter_learning_journey/screens/theme_screen.dart';
 import 'theme/app_theme.dart';
 import 'screens/new_home_screen.dart';
@@ -19,7 +23,7 @@ class MyApp extends StatelessWidget{
       
       theme: AppTheme.lightTheme,
 
-      home: const TextThemeScreen(),
+      home: const ResponsiveGridScreen(),
     );
   }
 }
