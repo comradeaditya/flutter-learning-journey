@@ -10,6 +10,8 @@ class AnimatedContainerScreen extends StatefulWidget {
 class _AnimatedContainerScreenState extends State<AnimatedContainerScreen> {
   
   bool isExpanded = false;
+  //isExpanded - state variable that tracks whether container is big or small
+  //starts as false - container starts small
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +29,7 @@ class _AnimatedContainerScreenState extends State<AnimatedContainerScreen> {
           },
 
           child: AnimatedContainer(
-            duration: const Duration(milliseconds: 500),
+            duration: const Duration(milliseconds: 500), //animation speed
 
             width: isExpanded ? 300 : 150,
             height: isExpanded ? 300 : 150,
@@ -42,7 +44,7 @@ class _AnimatedContainerScreenState extends State<AnimatedContainerScreen> {
             ),
             ),
 
-            curve: Curves.easeInOut,
+            curve: Curves.easeIn, //controls animation feel
 
             child: Center(
               child: Text(

@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget{
       
       theme: AppTheme.lightTheme,
 
-      home: const HeroFirstScreen(),
+      home: const AnimatedContainerScreen(),
     );
   }
 }

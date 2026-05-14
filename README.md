@@ -68,6 +68,10 @@ things out step by step.
 - Animated screen navigation using Hero animations
 - Gesture-driven UI interactions using GestureDetector
 - Smooth image expansion transitions between screens
+- Implicit animations using AnimatedContainer
+- State-driven UI animatiosn using setState()
+- Animated size, color, and border radius transitions
+- Smooth UI transformations using animation curves
 
 ---
 
@@ -166,15 +170,20 @@ Implemented Flutter Hero animations for smooth shared element transitions betwee
 
 ![Hero Animation](screenshots/hero_animation.jpeg)
 
+### Animated Container
+Built interactive Flutter UI animations using AnimateContainer and state-driven rendering. Implemented smooth animated transitions for size, color, and border radius using setState(), duration and animation curves for production-style expanded UI interations.
+
+![AnimatedContainer](screenshots/animated_container.jpeg)
+
 ---
 
 
 ## Current Focus
 
 Currently learning:
-- AnimatedContainer in Flutter
-- Implicit animations
-- State-driven UI transitions
+- AnimatedOpacity in Flutter
+- Fade transitions and visibility animations 
+- Smooth UI appearance effects
 
 ---
 
