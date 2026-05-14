@@ -64,6 +64,10 @@ things out step by step.
 - Dynamic GridView layouts using crossAxisCount
 - Responsive grid systems with GridView.builder
 - Constraint-based UI adaptation using maxWidth
+- Hero widget for shared element transitions
+- Animated screen navigation using Hero animations
+- Gesture-driven UI interactions using GestureDetector
+- Smooth image expansion transitions between screens
 
 ---
 
@@ -157,15 +161,20 @@ Built adaptive Flutter layouts using LayoutBuilder and constraint-based renderin
 
 ![LayoutBuilder + Responsive Grid](screenshots/layoutbuilder_responsive_grid.jpeg)
 
+### Hero Animation
+Implemented Flutter Hero animations for smooth shared element transitions between screens. Built interactive image navigation using GestureDetector, Navigator.push, and matching Hero tags to create production-style animated screen transitions.
+
+![Hero Animation](screenshots/hero_animation.jpeg)
+
 ---
 
 
 ## Current Focus
 
 Currently learning:
-- Hero animations in Flutter
-- Shared element screen transitions
-- Flutter animation fundamentals
+-AnimatedContainer in Flutter
+- Implicit animations
+- State-driven UI transitions
 
 ---
 
