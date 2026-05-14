@@ -172,7 +172,7 @@ Implemented Flutter Hero animations for smooth shared element transitions betwee
 ## Current Focus
 
 Currently learning:
--AnimatedContainer in Flutter
+- AnimatedContainer in Flutter
 - Implicit animations
 - State-driven UI transitions
 
