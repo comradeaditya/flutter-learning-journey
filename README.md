@@ -6,6 +6,90 @@ things out step by step.
 
 ---
 
+## Screenshots
+
+### AnimatedOpacity + Fade Transitions
+Built smooth fade animations using AnimatedOpacity and state-driven rendering. Implemented animated visibility transitions with opacity values, duration, and animation curves for cleaner production-style appearance and disappearance effects.
+
+![AnimatedOpacity + Fade Transitions](screenshots/animated_opacity.jpeg)
+
+### AnimatedContainer
+Built interactive Flutter UI animations using AnimatedContainer and state-driven rendering. Implemented smooth animated transitions for size, color, and border radius using setState(), duration, and animation curves for production-style expandable UI interactions.
+
+![AnimatedContainer](screenshots/animated_container.jpeg)
+
+### Hero Animation
+Implemented Flutter Hero animations for smooth shared element transitions between screens. Built interactive image navigation using GestureDetector, Navigator.push, and matching Hero tags to create production-style animated screen transitions.
+
+![Hero Animation](screenshots/hero_animation.jpeg)
+
+### LayoutBuilder + Responsive Grid
+Built adaptive Flutter layouts using LayoutBuilder and constraint-based rendering. Implemented responsive breakpoints for mobile, tablet, and large screens with dynamically changing GridView column layouts using crossAxisCount and GridView.builder.
+
+![LayoutBuilder + Responsive Grid](screenshots/layoutbuilder_responsive_grid.jpeg)
+
+### Custom Fonts + Text Themes
+Built a centralized typography system using Flutter `TextTheme` with reusable headline, body, and button styles. Implemented custom font integration, theme-based text styling, and dynamic light/dark mode typography for consistent UI design across the app.
+
+![Custom Fonts + Text Themes](screenshots/custom_fonts_themes.jpeg)
+
+### Dark Mode Toggle
+Implemented dynamic light and dark theme architecture using ThemeMode, custom darkTheme configuration, adaptive UI styling, and centralized theme management with AppTheme.
+
+![Dark Mode Toggle](screenshots/dark_mode_toggle.jpeg)
+
+### ThemeData + Custom Themes
+Built a centralized Flutter theming system using ThemeData, custom AppColors, reusable button themes, card themes, typography styling, and Material 3 design. Includes modular theme architecture using app_theme.dart and app_colors.dart for scalable UI consistency.
+
+![ThemeData + Custom Themes](screenshots/theme_data_custom_colors.jpeg)
+
+### Orientation Handling
+Implemented portrait and landscape adaptive layouts using MediaQuery orientation detection. UI dynamically switches between Column and Row layouts for better responsiveness across screen rotations.
+
+![Orientation Handling](screenshots/orientation.jpeg)
+
+### MediaQuery + Responsive Layouts
+Built responsive Flutter layouts using MediaQuery for adaptive width, height, spacing, and text scaling across multiple device sizes. Includes responsive cards, buttons, reusable widgets, and scroll-safe UI handling using SingleChildScrollView.
+
+![MediaQuery + Responsive Layouts](screenshots/media_query.jpeg)
+
+### Expanded + Flexible Widget
+Responsive Flutter layouts built using Expanded, Flexible, Row, and Column. Demonstrates proportional space distribution using flex values, adaptive text behavior, and responsive UI structure fundamentals.
+
+![Expanded + Flexible](screenshots/expanded_flexible.jpeg)
+
+### TabBar + TabBarView
+Top tab navigation built using DefaultTabController, TabBar, and TabBarView with swipe gestures, active tab indicators, custom tab styling, and separate screen architecture for scalable UI management.
+
+![TabBar + TabBarView](screenshots/tabbar_navigation.jpeg)
+
+### Bottom Navigation Bar
+A multi-screen Bottom Navigation system built using StatefulWidget, setState(), and dynamic screen rendering with selectedIndex. Includes separate screen architecture, active tab highlighting, and production-style BottomNavigationBar behavior.
+
+![Bottom Navigation Bar](screenshots/bottom_navigation_bar.jpeg)
+
+### Drawer Widget
+A fully functional navigation Drawer with a gradient profile header using UserAccountsDrawerHeader, ListTile menu items with icons, a Divider separator, and floating Snackbar feedback on every tap.
+
+![Drawer Widget](screenshots/drawer_widget.jpeg)
+
+### AppBar Actions
+Demonstrates real-world AppBar interaction patterns including search, notifications, profile, and a three-dot PopupMenuButton with dynamic Snackbar feedback on every action.
+
+![AppBar Actions](screenshots/appbar_actions.jpeg)
+
+### AlertDialog + Snackbar Flow
+Shows a real-world user interaction flow using AlertDialog confirmation and Snackbar feedback after deletion action.
+
+![AlertDialog + Snackbar](screenshots/alert_dialog_snackbar_flow.jpeg)
+
+### Product Card + Social Post Card
+E-commerce style Product Card with Stack and Positioned favorite icon overlay, and an Instagram-style Social Post Card with CircleAvatar profile header, action row using Spacer for bookmark alignment, and 120 likes counter.
+
+![Product Card + Social Post Card](screenshots/product_card_plus_post_card.jpeg)
+
+---
+
 ## What I've covered so far
 
 - Setting up Flutter and understanding project structure
@@ -37,8 +121,8 @@ things out step by step.
 - Swipeable tab interfaces
 - DefaultTabController based navigation
 - Expanded widget for responsive space distribution
-- Flexible widget for adaptive layouts 
-- Responsive Row & Column layouts 
+- Flexible widget for adaptive layouts
+- Responsive Row & Column layouts
 - Understanding proportional sizing using flex
 - Responsive UI using MediaQuery
 - Screen width & height based adaptive sizing
@@ -69,9 +153,13 @@ things out step by step.
 - Gesture-driven UI interactions using GestureDetector
 - Smooth image expansion transitions between screens
 - Implicit animations using AnimatedContainer
-- State-driven UI animatiosn using setState()
+- State-driven UI animations using setState()
 - Animated size, color, and border radius transitions
 - Smooth UI transformations using animation curves
+- Fade animations using AnimatedOpacity
+- Animated visibility transitions using opacity values
+- Smooth UI appearance/disappearance effects
+- State-driven fade transitions using setState()
 
 ---
 
@@ -99,91 +187,12 @@ understand why things work the way they do. This repo documents my real learning
 
 ---
 
-## Screenshots
-
-### Product Card + Social Post Card
-E-commerce style Product Card with Stack and Positioned favorite icon overlay, and an Instagram-style Social Post Card with CircleAvatar profile header, action row using Spacer for bookmark alignment, and 120 likes counter.
-![Product Card + Social Post Card](screenshots/product_card_plus_post_card.jpeg)
-
-### AlertDialog + Snackbar Flow
-Shows a real-world user interaction flow using AlertDialog confirmation and Snackbar feedback after deletion action.
-
-![AlertDialog + Snackbar](screenshots/alert_dialog_snackbar_flow.jpeg)
-
-### AppBar Actions
-Demonstrates real-world AppBar interaction patterns including search, notifications, profile, and a three-dot PopupMenuButton with dynamic Snackbar feedback on every action.
-
-![AppBar Actions](screenshots/appbar_actions.jpeg)
-
-### Drawer Widget
-A fully functional navigation Drawer with a gradient profile header using UserAccountsDrawerHeader, ListTile menu items with icons, a Divider separator, and floating Snackbar feedback on every tap.
-
-![Drawer Widget](screenshots/drawer_widget.jpeg)
-
-### Bottom Navigation Bar
-A multi-screen Bottom Navigation system built using StatefulWidget, setState(), and dynamic screen rendering with selectedIndex. Includes separate screen architecture, active tab highlighting, and production-style BottomNavigationBar behavior.
-
-![Bottom Navigation Bar](screenshots/bottom_navigation_bar.jpeg)
-
-### TabBar + TabBarView
-Top tab navigation built using DefaultTabController, TabBar, and TabBarView with swipe gestures, active tab indicators, custom tab styling, and separate screen architecture for scalable UI management.
-
-![TabBar + TabBarView](screenshots/tabbar_navigation.jpeg)
-
-### Expanded + Flexible Widget
-Responsive Flutter layouts built using Expanded, Flexible, Row, and Column. Demonstrates proportional space distribution using flex values, adaptive text behavior, and responsive UI structure fundamentals.
-
-![Expanded + Flexible](screenshots/expanded_flexible.jpeg)
-
-### MediaQuery + Responsive Layouts
-Built responsive Flutter layouts using MediaQuery for adaptive width, height, spacing, and text scaling across multiple device sizes. Includes responsive cards, buttons, reusable widgets, and scroll-safe UI handling using SingleChildScrollView.
-
-![MediaQuery + Responsive Layouts](screenshots/media_query.jpeg)
-
-### Orientation Handling
-Implemented portrait and landscape adaptive layouts using MediaQuery orientation detection. UI dynamically switches between Column and Row layouts for better responsiveness across screen rotations.
-
-![Orientation Handling](screenshots/orientation.jpeg)
-
-### ThemeData + Custom Themes
-Built a centralized Flutter theming system using ThemeData, custom AppColors, reusable button themes, card themes, typography styling, and Material 3 design. Includes modular theme architecture using app_theme.dart and app_colors.dart for scalable UI consistency.
-
-![ThemeData + Custom Themes](screenshots/theme_data_custom_colors.jpeg)
-
-### Dark Mode Toggle
-Implemented dynamic light and dark theme architecture using ThemeMode, custom darkTheme configuration, adaptive UI styling, and centralized theme management with AppTheme.
-
-![Dark Mode Toggle](screenshots/dark_mode_toggle.jpeg)
-
-### Custom Fonts + Text Themes
-Built a centralized typography system using Flutter `TextTheme` with reusable headline, body, and button styles. Implemented custom font integration, theme-based text styling, and dynamic light/dark mode typography for consistent UI design across the app.
-
-![Custom Fonts + Text Themes](screenshots/custom_fonts_themes.jpeg)
-
-### LayoutBuilder + Responsive Grid
-Built adaptive Flutter layouts using LayoutBuilder and constraint-based rendering. Implemented responsive breakpoints for mobile, tablet, and large screens with dynamically changing GridView column layouts using crossAxisCount and GridView.builder.
-
-![LayoutBuilder + Responsive Grid](screenshots/layoutbuilder_responsive_grid.jpeg)
-
-### Hero Animation
-Implemented Flutter Hero animations for smooth shared element transitions between screens. Built interactive image navigation using GestureDetector, Navigator.push, and matching Hero tags to create production-style animated screen transitions.
-
-![Hero Animation](screenshots/hero_animation.jpeg)
-
-### Animated Container
-Built interactive Flutter UI animations using AnimateContainer and state-driven rendering. Implemented smooth animated transitions for size, color, and border radius using setState(), duration and animation curves for production-style expanded UI interations.
-
-![AnimatedContainer](screenshots/animated_container.jpeg)
-
----
-
-
 ## Current Focus
 
 Currently learning:
-- AnimatedOpacity in Flutter
-- Fade transitions and visibility animations 
-- Smooth UI appearance effects
+- Custom route animations
+- Page transition effects in Flutter
+- Advanced navigation animations
 
 ---
 
