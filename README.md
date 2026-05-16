@@ -9,9 +9,9 @@ things out step by step.
 ## Screenshots
 
 ### Route Animations + Custom Page Transitions
-Built custom Flutter navigation animations using PageRouteBuilder and SlideTransition. Implementd smooth screen transitions with Tween animations, Offset-based movement, animation curves, and transitionDuration for production-style route navigation effects.
+Built custom Flutter navigation animations using PageRouteBuilder and SlideTransition. Implemented smooth screen transitions with Tween animations, Offset-based movement, animation curves, and transitionDuration for production-style route navigation effects.
 
-![Route Animations + Custom Page Transitions](screenshots/route_animation.jpeg)
+![Route Animations + Custom Page Transitions](screenshots/route_animation.jpg)
 
 ### AnimatedOpacity + Fade Transitions
 Built smooth fade animations using AnimatedOpacity and state-driven rendering. Implemented animated visibility transitions with opacity values, duration, and animation curves for cleaner production-style appearance and disappearance effects.
@@ -166,7 +166,7 @@ E-commerce style Product Card with Stack and Positioned favorite icon overlay, a
 - Smooth UI appearance/disappearance effects
 - State-driven fade transitions using setState()
 - Custom route transitions using PageRouteBuilder
-- SlideTransition based screen animation
+- SlideTransition based screen animations
 - Tween animations with Offset transitions
 - Explicit navigation animation control
 - Production-style page transition effects
@@ -200,9 +200,9 @@ understand why things work the way they do. This repo documents my real learning
 ## Current Focus
 
 Currently learning:
-- AnimatonController basics
+- AnimationController basics
 - Explicit Flutter animations
-0 Controller-driven animation system
+- Controller-driven animation systems
 
 ---
 
