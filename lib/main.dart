@@ -4,6 +4,7 @@ import 'package:flutter_learning_journey/responsive/layout_builder_screen.dart';
 import 'package:flutter_learning_journey/responsive/responsive_card.dart';
 import 'package:flutter_learning_journey/responsive/responsive_grid_screen.dart';
 import 'package:flutter_learning_journey/screens/animated_opacity_screen.dart';
+import 'package:flutter_learning_journey/screens/custom_route_animation_screen.dart';
 import 'package:flutter_learning_journey/screens/hero_first_screen.dart';
 import 'package:flutter_learning_journey/screens/theme_screen.dart';
 import 'theme/app_theme.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget{
       
       theme: AppTheme.lightTheme,
 
-      home: const AnimatedOpacityScreen(),
+      home: const CustomRouteAnimationScreen(),
     );
   }
 }
