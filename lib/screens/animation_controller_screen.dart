@@ -14,6 +14,7 @@ class _AnimationControllerScreenState extends State<AnimationControllerScreen> w
   
   //create Controller
   late AnimationController controller;
+  late Animation<double> scaleAnimation;
 
   //Initialize Controller
 
@@ -25,6 +26,16 @@ class _AnimationControllerScreenState extends State<AnimationControllerScreen> w
       vsync: this, // connects animation screen refresh efficiently
       duration: const Duration(seconds: 2), // full animation time
     );
+    
+    scaleAnimation = Tween<double> (
+      begin: 0.5,
+      end: 1.5, 
+      ).animate(
+        CurvedAnimation(
+          parent: controller,
+          curve: Curves.easeInOut,
+        ),
+      );
 
     controller.repeat(reverse: true); //infinite aimation loop
   }
@@ -46,8 +57,16 @@ class _AnimationControllerScreenState extends State<AnimationControllerScreen> w
       ),
 
       body: Center(
-        child: RotationTransition(
-          turns: controller,
+        child: AnimatedBuilder(
+          animation: scaleAnimation,
+          
+          builder: (context, child) {
+            return Transform.scale(
+              scale: scaleAnimation.value,
+
+              child: child,
+            );
+          },
 
           child: Container(
             width: 150,
